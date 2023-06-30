@@ -1,0 +1,51 @@
+.IniciProduto {
+  border-radius: 5px;
+  width: 90%;
+  height: 670px;
+  background-repeat: no-repeat;
+  background: #FCF4F4;
+  background-size: 100%;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+
+.btBaixoProduto{
+  margin: 0 1em !important; 
+  font-size: 20px !important;
+  width: 180px !important;
+  height: 46px !important;
+  transform: translateX(663%) !important;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2) !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
+  background-color: #FCF4F4 !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.btGrupoAla{
+    display: block !important;
+    margin: 0 1em !important; 
+    font-size: 20px !important;
+    width: 180px !important;
+    height: 46px !important;
+    transform: translateX(-233%) !important;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2) !important;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    background-color: #FCF4F4 !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.botoes{
+	list-style: none;
+  display: flex;
+}
+
+.btBaixoProduto{
+  transform: translateX(233%) !important;
+ 
+}
+
