@@ -55,26 +55,22 @@ return(
     <div className="container">
                 
         <div className="row">
-        
-            <div className="col-md-6">
-                <div className="d-flex justify-content-center align-items-center">
                 <div className='fundo'>
                 <Form className='formGrupo'> 
-                    <h1>Ala</h1>   
-                <Row className="mb-3">
-                <Form.Group as={Col} md="4">
+                    <h1  className='tituloGrupo'>Ala</h1>   
+                <Row className="mb-3">   
+                <div className=' descricao'>
                         <Form.Label>Descrição</Form.Label>
                         <Form.Control id="descricao" type="text" value={descricao} onChange={(e) => setDescricao(e.target.value)} placeholder= "Descrição"/>
-                </Form.Group>        
-                </Row>   
-                <Button onClick={salvar}>Salvar</Button>
-                <Button onClick={()=> navigate('/TelaProduto')}>Cancelar</Button>     
-                </Form>    
                 </div>
-                 </div>
-
-
-            </div>
+                </Row>
+                </Form>          
+                </div>
+                <div className='bbGrup'> 
+                <Button className='botaoGrup' onClick={salvar}>Salvar</Button>
+                <Button className='botaoGrup' onClick={()=> navigate('/TelaProduto')}>Cancelar</Button>     
+                </div> 
+        
         </div>
     </div>
     </>

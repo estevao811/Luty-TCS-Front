@@ -52,7 +52,7 @@ return(
                  <header className='inicio'>
                     <Image src={imgIni} className = 'imgIni'></Image>
                 </header>
-                
+
     <div className="container">
                 
         <div className="row">
@@ -63,8 +63,6 @@ return(
                 <Form className='formGrupo'> 
                     <h1 className='tituloGrupo'>Grupo</h1>   
                 <Row className="mb-3">
-               
-                        
                         <div className=' descricao'>
                         <Form.Label>Descrição</Form.Label>
                         <Form.Control id="descricao" type="text" value={descricaoGrupo} onChange={(e) => setDescricaoGrupo(e.target.value)} placeholder= "Descrição..."/>
@@ -74,9 +72,11 @@ return(
                     
                 </Form>    
                 </div>
+                
+                <div className='bbGrup'>
                 <Button className='botaoGrup' onClick={salvar}>Salvar</Button>
                 <Button className='botaoGrup' onClick={()=> navigate('/TelaProduto')}>Cancelar</Button> 
-
+                </div>
 
         </div>
     </div>

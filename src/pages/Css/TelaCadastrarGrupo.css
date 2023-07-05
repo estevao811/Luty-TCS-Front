@@ -36,17 +36,22 @@
     align-items: center;
   }
   .botaoGrup{
-    margin: 0 1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em;
     font-size: 20px;
     width: 180px;
     height: 46px;
-    transform: translateX(245%);
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     margin-top: 2%;
-    margin-bottom: 1%;
     background-color: #FCF4F4 !important;
     color: black !important;
     font-weight: bold !important;
-      
+}  
+.bbGrup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
